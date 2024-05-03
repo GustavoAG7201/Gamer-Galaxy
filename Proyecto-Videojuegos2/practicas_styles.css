@@ -1,0 +1,18 @@
+.tab{
+  width: 100%;
+  text-align: center;
+  background-color: rgba(165, 105, 189, 0.8);
+}
+
+.filas{
+  border-style: solid;
+  border-color: black;
+  height: 250px;
+  width: 33px;
+}
+
+button{
+  background-color: aqua;
+  color: blueviolet;
+  border-radius: 50px;
+}

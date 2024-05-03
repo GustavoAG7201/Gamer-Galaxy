@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="juegos_styles.css">
+    <link rel="icon" href="assets/images/gamergalaxylogo.ico" type="ico" sizes="16x16">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <script src="https://kit.fontawesome.com/c4100122a9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="encabezado-principal text-center">
+            <header>
+                <h1>Juegos</h1>
+            </header>
+        </div>
+
+        <nav class="barra-navegacion">
+            <a href="index.html">
+                <div class="circle"></div>
+            </a>
+            <table>
+                <tr>
+                    <td><a href="juegos.html"><i class="fa-solid fa-ghost"></i> Juegos</a></td>
+                    <td><a href="consolas.html"><i class="fa-solid fa-gamepad"></i> Consolas</a></td>
+                    <td><a href="novedades.html"><i class="fa-solid fa-newspaper"></i> Novedades</a></td>
+                    <td><a href="acercademi.html"><i class="fa-solid fa-circle-user"></i> Acerca de mi</a></td>
+                    <td><a href="contacto.html"><i class="fa-solid fa-phone"></i> Contacto</a></td>
+                    <td><a href="practicas.html"><i class="fa-solid fa-code"></i> Practicas</a></td>
+                </tr>
+            </table>
+        </nav>
+
+        <div class="contenido-principal">
+            <div class="row" id="juegos-container">
+                <!-- Aquí se mostrarán los juegos -->
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer mt-auto py-3">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 Gustavo Alonso Gutierrez.</span>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="api_juegos.js" defer></script>
+</body>
+</html>

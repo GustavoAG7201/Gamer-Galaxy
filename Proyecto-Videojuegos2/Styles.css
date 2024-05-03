@@ -1,0 +1,111 @@
+body {
+    background-color: #4A235A;
+    background-position: center 15%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.encabezado-principal {
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    margin-top: 170px;
+    position: relative;
+}
+
+.encabezado-principal img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.texto-superior {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(138, 43, 226, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    z-index: 1; /* Para asegurar que esté por encima de la imagen */
+}
+
+.card {
+    overflow: hidden; /* Para ocultar el fondo de la imagen que sobresale de la tarjeta */
+    border-radius: 20px;
+}
+
+.card-img-bottom {
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-image: url('assets/images/gamergalaxylogo.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.barra-navegacion {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(165, 105, 189, 0.8); /* Cambiamos el color y ajustamos la opacidad */
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.barra-navegacion table td {
+    padding: 0 10px;
+}
+
+.barra-navegacion a {
+    color: white;
+}
+
+.barra-navegacion table td:hover {
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.barra-navegacion a:hover{
+    color: #39FF33;
+    text-decoration: none;
+}
+
+.info-contacto table td{
+    color: white;
+}
+
+.info-personal-contacto table td, th{
+    color:  white;
+}
+
+.foto-personal{
+    width: 400px;
+}
+
+.tabla-acercademi table td{
+    color: white;
+}
+
+.descripcion-acercademi{
+    background-color: rgba(165, 105, 189, 0.8);
+}
