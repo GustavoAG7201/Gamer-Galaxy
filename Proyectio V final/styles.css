@@ -1,4 +1,4 @@
-/*! Estilos generales para todas las paginas */
+/*! ESTILOS GENERALES PARA TODAS LAS PAGINAS */
 
 
 html, body{
@@ -15,6 +15,7 @@ html, body{
     display: flex;
     justify-content: center;
     background-color: #000064;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.4);
     padding: 20px;
     width: 100%;
     box-sizing: border-box;
@@ -25,6 +26,10 @@ html, body{
     text-decoration: none;
     color: white;
 }
+.barraNavegacion a:hover{
+    color: greenyellow;
+    transition: background-color 0.3s, color 0.3s;
+}
 
 .barraNavegacion table td{
     padding: 10px;
@@ -34,8 +39,50 @@ html, body{
     width: 100px;
     height: 100px;
     background-image: url('assets/images/gamergalaxylogo.png');
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.5);
     background-size: cover;
     border-radius: 50%;
     margin-right: 20px;
 }
 
+.pie{
+    text-align: center;
+    color: white;
+}
+/*! ESTILOS DEL INDEX */
+
+.fallout-bienvenida {
+    margin-right: 40px;
+    float: right;
+    width: 500px;
+    height: 500px;
+ }
+
+ .pacman-bienvenida{
+    margin-left: 300px;
+    margin-right: auto;
+ }
+
+ .titulo-bienvenida{
+    font-family: "Press Start 2P", cursive; 
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ .tarjeta-presentacion{
+    background-color: #6b42f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 900px;
+    margin: 50px;
+ }
+
+ .texto-presentacion{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+ }
