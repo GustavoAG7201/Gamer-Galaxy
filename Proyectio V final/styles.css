@@ -49,6 +49,7 @@ html, body{
     text-align: center;
     color: white;
 }
+
 /*! ESTILOS DEL INDEX */
 
 .fallout-bienvenida {
@@ -74,7 +75,7 @@ html, body{
  .tarjeta-presentacion{
     background-color: #6b42f1;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.9);
     padding: 20px;
     max-width: 900px;
     margin: 50px;
@@ -85,4 +86,76 @@ html, body{
     font-size: 15px;
     font-weight: bold;
     color: white;
+ }
+
+
+ /*! ESTILOS DE CONSOLAS */
+ .titulo-consolas{
+    font-family: "Press Start 2P", cursive; 
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+ }
+
+ .tarjeta-presentacion-consolas{
+    background-color: #6b42f1;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+ }
+
+ .texto-presentacion-consolas{
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+ }
+
+ .tabla-consolas{
+    width: 80%;
+    box-shadow: 0 2px 8px rgba(255, 255, 255, 0.9);
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #6b42f1;
+ }
+
+ .columnas-tab-consolas{
+  /* border-style: solid;
+  border-color: black;
+  width: 33px;
+  height: 250px;
+  padding: 5%;
+  border-style: solid; */
+
+  border-style: solid;
+  border-color: black;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  word-wrap: break-word; /* Permite que el texto se divida en varias líneas */
+  vertical-align: top; /*Quitar espacios en la parte alta*/
+  border-style: solid;
+ }
+
+ .columnas-tab-consolas img{
+    width: 50%;
+    height: auto;
+    border-radius: 50px;
+ }
+
+
+ .titulo-articulo-consola{
+    font-family: "Press Start 2P", cursive;
+    color: greenyellow;
+ }
+
+ .texto-articulo-consola{
+    font-family: Verdana, Geneva, sans-serif;
+    color: white;
+    font-weight: bold;
  }
